@@ -10,7 +10,7 @@ import string
 import re
 
 
-names_data = pd.read_csv('https://raw.githubusercontent.com/Gzaborey/email_spam/main/names_dataframe.csv',
+names_data = pd.read_csv('https://raw.githubusercontent.com/Gzaborey/python_applications_classifier/main/names_dataframe.csv',
                          index_col='Unnamed: 0')
 names_list = [str(name).lower() for name in names_data.iloc[:, -1]]
 
