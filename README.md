@@ -1,6 +1,8 @@
 # Applications Classifier i.e. Spam Classifier
 
-- The project is aimed to detect fake applications for IT courses (spam applications) in 'email_data.xlsx' file. Data was labelled manually. 
-- 'data_preprocessor.py' file extracts features from the 'email_data.xlsx' file and preprocesses it (data) to be suitable as an input for a Machine Learning model.
-Preprocessor extract features such as applicant's name validity, phone number validity and removes redundant data that is not used by classifier.
-- 'spam_detector.py' contains the classifier.
+- The project is aimed to detect fake applications for IT courses (spam applications).
+
+The project consists of three parts:
+1. Data preparation and cleaning.
+2. ML model training.
+3. ML model testing.
